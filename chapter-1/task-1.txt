@@ -1,0 +1,56 @@
+Q) Map Creation: Think of a real-world system, like a library or a shopping mall. 
+How would you model it using OOP concepts? What are the objects, 
+their attributes, and behaviors? How do they interact?
+
+for this map creation I am taking shopping mall as an example to Encapsulation
+the OOP's concept.
+
+Encapsulation:as we know that the encapsulation is securing the important data.
+
+if we take shopping mall to exaplain what is  encapsulation, they secure their
+workers details, and thier daily profits from the unauthorized access.
+
+Inheritance: Deriving the data or methods from the existing class to form a 
+new class is called inheritance 
+
+while starting the shopping mall they will have an list of things that they want 
+sell in that shopping mall but as customers recomendation of later one week
+they may need to add some other things to the existing data
+example:imagine they have a list like kicthen things and cloths collection to start 
+thire shopping mall but after one week they want to add accessories to the main list 
+
+polymarphism:the same class used to form the different objects.
+
+In shopping mall they may order the sarees which have same design and quality but
+with the different colors
+
+abstraction : hiding the unneccesary functionalities
+
+as we are disccussing shopping mall as an example in this situation we no need to 
+known hoe the shopping mall getting profits and the salary of thire workers and as
+well as how they are transporting the things.
+
+objects , attibutes and thire behaviours in shopping mall
+
+objects:
+1) cloths
+2) jewelry
+3) footware
+4) home goods
+attributes:
+1) quality
+2) price
+3) count of the things
+4) shelfves
+5) blocks
+behaviours
+1) buying the things
+2) creding
+3) trying on cloths
+
+In shopping mall we have different objects linke cloths,jewelry,footware and ect..
+if any customer go for the shopping then they will check for thire needs by checking 
+attributes of that object like it's quality and price and they try on that object if 
+they like it they will buy it
+
+

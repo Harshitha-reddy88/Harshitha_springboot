@@ -1,0 +1,46 @@
+Q) Journey Extension: Imagine extending your Swiss journey to neighboring countries. 
+How would you adapt your travel checklist? Relate this to the concept of inheritance 
+and polymorphism in software design.
+
+as we are extending our travel from swiss to france
+
+inheritance : as we planned the travel to swiss and after some days we are willing
+to go and meet our friend who is in france which is neighboring countrie for the 
+swiss. In this case we want to write an new checklist following by the our existing
+checklist of swiss country planning.
+
+polymarphism : At first as we planned to  travel around the swiss we should convert
+our Indian currency to franc to survive in swiss but as we are extending our journy
+to france we have to change out money of franc into euros , here the class money 
+same but it.s form of county to country it will differ.
+
+relating to the software design
+
+** single responsibility principle : as we are travelling around the swiss we have money
+with us to buy food and to do shopping and if we are extending our travel from
+swiss to france in this case as well we want money to buy food and to do shopping
+here the class money is taking single responsibility of surving in the different
+countries,
+
+** Open/Closed Principle: At first we planned to go trip for swss but we extended out 
+trip from swiss to france by using inheritance of the existing checklist , in this
+case new checklist it opened for the extension from swiss travel to france but 
+it is closed to modifications in our existing checklist of Swiss
+
+** Liskov Substitution Principle:while we are planning to trevel around the swiss we 
+will make all the things get ready and we will arrange our food plans and hotel
+plans according to the cost of those things in Swiss. Here our correcteness is getting
+food and shelter . while we are extending our travel to france our correctness of
+food and shelter will not change but it's cost and type of the food that we are taking 
+will differ.
+
+** Interface Segregation Principle: as we are extending our travel from Swiss to france
+we don't know about the france so that we will check about the famous things to visit
+in France and we will take the expirience of our friends who already visited the France
+
+** Dependency Inversion Principle: we are extending our plane from Swiss travel to
+france travel here Swiss planning is highlevel module where the france travel is
+lowlevel module . so that our france trevel will depend on the end of our Swiss travel
+
+
+

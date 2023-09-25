@@ -1,0 +1,22 @@
+Q) Travel Constraints: Consider restrictions or rules you might encounter on your
+ journey, like luggage weight limits or visa requirements. How would these 
+ constraints translate to software design principles?
+
+ ** Single Responsibility Principle: we are traveling from one county to other country 
+ we will have the restrictions fro our visa requairements and our laguage weight limits
+ In this case our visa requairements will may differe from country to another country
+ but it has a single responsibility of holding out personal details and eventhough 
+ we have the restriction of laguage limitation it has a single responsibility if holding
+ our belongings
+
+ ** Open/Closed Principle: As we have different requairements of visa it is opened 
+ to add our own details that nedded to it's verification purposebut it is closed to
+ enter others details in our visa verification
+
+ ** Dependency Inversion Principle: when we are traveling from one place to another
+ place we will have some important thigs to take with us even we have the wieght 
+ limitation of laguage. Here the things that are important for us is low level module
+ and the wieght limitation is hight level module.so taht we will prioritise our important
+ belongings according to the wieght limitations where the rule of wieght limitation
+ will not depend on our important things
+ 

@@ -1,0 +1,45 @@
+Q) Customized Itinerary: Design a travel itinerary for a friend who has different preferences
+ than you. How would you ensure that your base plan (OOP) can be adapted to fit 
+ their needs (Design Principles)?
+
+my list for the travel (base list/super list):
+1) party wears
+2) normal wears
+3) medicals
+4) passport
+5) extra accessories
+6) powerbank
+7) room (2 star hotel)
+
+my friend travel list:
+he need all those things which are there in my travel list exept normal wears and 
+power bank, and he has some preferences to add (laptop,mobile charger,suumer weras etc..)
+to that list and make his own list
+
+the final list for my friend which is inheritaed from my list(sublist):
+1) party wears
+2) medicals
+3) passport
+4) extra accessories
+5) mobile charger
+6) laptop
+7) summer wears
+8) photo album
+9) camera
+10)playing things
+11) room (5 star hotel)
+
+In the above scenario my friend travel list is inherited from my travel list by 
+removing some needs and adding his preferences .
+
+encapsulation : As my friend have different preferences I can secure my traveling 
+and meals details
+abstraction : Even my friend is traveling trought the same country that I have already
+visited he no need to know how I reached there and how much money that I spend on each
+and every thing.
+polymarphism : even my friend and me are visiting same place where we have to use
+the same currancy his preferences is totally different from my preferences
+
+
+
+
